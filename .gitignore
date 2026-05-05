@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Azure Functions 원본 트레이스 (수 GB, 다운로드로 재생성)
+data/raw/
+
+# PyTorch 모델 가중치 (대용량 바이너리)
+*.pt
