@@ -43,7 +43,7 @@ def make_synthetic_trace(kind="steady", days=14, seed=0):
     minute = np.arange(T) % 1440
     daily = 0.5 * (1 + np.sin(2 * np.pi * (minute - 360) / 1440))  # 정오 피크
     if kind == "steady":                       # 뚜렷한 일중 주기, peak C ~ 35
-        base = 200 * daily + 100
+        base = 2500 * daily + 200
         inv = rng.poisson(np.maximum(base, 1)).astype(np.float64)
         duration = 800.0
     elif kind == "spiky":                      # 평소 낮고 드물게 급증, spike C ~ 60
