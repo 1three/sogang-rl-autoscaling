@@ -127,6 +127,14 @@ rl-autoscaling/
 
 ---
 
+## 학습된 모델 다운로드
+
+실험에 사용된 사전 학습 모델은 아래 링크에서 다운로드할 수 있다.
+
+https://github.com/1three/sogang-rl-autoscaling/releases/tag/v1.0
+
+---
+
 ## 재현성
 
 * 실험은 고정된 random seed를 사용한다.
