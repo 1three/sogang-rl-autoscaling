@@ -168,7 +168,7 @@ class ServerlessScalingEnv(gymnasium.Env):
 
 ### 실험 구성
 1. **알고리즘 비교**: DQN vs PPO vs HPA vs Oracle
-2. **w_cold 스윕**: `{1, 5, 10, 30}` → 비용-SLA 트레이드오프 시각화
+2. **w_cold 스윕**: `{1, 3, 10, 30}` → 비용-SLA 트레이드오프 시각화
 3. **시나리오 비교**: steady / spiky / bursty
 4. **통계적 신뢰성**: 각 설정 5 seeds, 95% 신뢰구간
 
